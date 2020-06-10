@@ -13,6 +13,13 @@ header {
 }
 
 .container {
-  margin: auto;
-  
+  margin: 25% auto;
+  border: 2px solid #000;
+  width: 50%;
+  height: 10em;
+}
+
+.generator {
+  text-align: center;
+  padding: 3em;
 }
