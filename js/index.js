@@ -15,7 +15,7 @@ randomButton.addEventListener("click", function(e) {
     for(let i = 0; i < len; i++) {
        random += chars.charAt(Math.floor(Math.random() * chars.length));
     }
-     return randomPassword.innerHTML += random;
+     return randomPassword.innerHTML = random;
 });
 
 
