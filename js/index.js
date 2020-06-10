@@ -3,7 +3,7 @@
 console.log("All Connected!");
 
 const randomButton = document.getElementById("generate");
-const copyPassword = document.getElementById("copy-password");
+const copyPassword = document.getElementById("copy");
 const randomPassword = document.getElementById("password");
 
 randomButton.addEventListener("click", function(e) {
@@ -17,6 +17,4 @@ randomButton.addEventListener("click", function(e) {
     }
      return randomPassword.innerHTML = random;
 });
-
-
 
